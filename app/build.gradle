@@ -54,6 +54,9 @@ dependencies {
     // Dynamic Feature Module Support (Navigation)
     implementation "androidx.navigation:navigation-dynamic-features-fragment:$nav_version"
 
+    // Bottom sheets
+    implementation 'com.github.Deishelon:RoundedBottomSheet:1.0.1'
+
 }
 repositories {
     mavenCentral()
