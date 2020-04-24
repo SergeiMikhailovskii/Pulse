@@ -11,7 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
-        <activity android:name=".login.LoginActivity" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:theme="@style/AppTheme.LoginScreen" />
         <activity
             android:name=".splash.SplashActivity"
             android:theme="@style/AppTheme.SplashScreen">

@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="signUpButton">#1024fd</color>
+
+    <color name="loginScreenStatusBar">@android:color/black</color>
 </resources>

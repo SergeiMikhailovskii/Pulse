@@ -5,4 +5,10 @@
     <string name="start_screen_welcome_text">The most interesting news in one place, specially for you</string>
     <string name="sign_up">Sign up</string>
     <string name="loading_value">%1$d %%</string>
+    <string name="skip">Skip</string>
+    <string name="login_text">Create an Account to Save News</string>
+    <string name="please_register_to_continue">Please register to continue</string>
+    <string name="facebook">Facebook</string>
+    <string name="email">Email</string>
+    <string name="bottom_login_text">Have an account? Login</string>
 </resources>
