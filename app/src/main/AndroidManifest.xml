@@ -12,10 +12,10 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".login.LoginActivity"
+            android:name="com.mikhailovskii.timesapp.ui.login.LoginActivity"
             android:theme="@style/AppTheme.LoginScreen" />
         <activity
-            android:name=".splash.SplashActivity"
+            android:name="com.mikhailovskii.timesapp.ui.splash.SplashActivity"
             android:theme="@style/AppTheme.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".start.StartActivity" />
+        <activity android:name="com.mikhailovskii.timesapp.ui.start.StartActivity" />
     </application>
 
 </manifest>

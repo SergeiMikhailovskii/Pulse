@@ -1,11 +1,11 @@
-package com.mikhailovskii.timesapp.splash
+package com.mikhailovskii.timesapp.ui.splash
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.mikhailovskii.timesapp.R
-import com.mikhailovskii.timesapp.start.StartActivity
+import com.mikhailovskii.timesapp.ui.start.StartActivity
 import kotlinx.android.synthetic.main.activity_splash_screen.*
 import kotlinx.coroutines.*
 
@@ -14,15 +14,11 @@ class SplashActivity : AppCompatActivity() {
     private val splashScreenTime = 3000L
     private val percentsStep = 4
 
-    private lateinit var handler: Handler
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
         var loadingProgress = 0
-
-        handler = Handler()
 
         CoroutineScope(Dispatchers.IO).launch {
             delay(splashScreenTime)

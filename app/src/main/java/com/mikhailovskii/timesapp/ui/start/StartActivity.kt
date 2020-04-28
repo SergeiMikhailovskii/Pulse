@@ -1,10 +1,10 @@
-package com.mikhailovskii.timesapp.start
+package com.mikhailovskii.timesapp.ui.start
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.mikhailovskii.timesapp.R
-import com.mikhailovskii.timesapp.login.LoginActivity
+import com.mikhailovskii.timesapp.ui.login.LoginActivity
 import kotlinx.android.synthetic.main.activity_start.*
 
 class StartActivity : AppCompatActivity() {
